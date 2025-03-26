@@ -1,0 +1,140 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image:url(morgage\ 2.0.png);
+    
+    
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background:darkcyan;
+    padding:5px, 30px;
+    border-bottom:1px solid#ccc;
+    box-shadow: 0 2px 4px rgba(110, 185, 217, 0.1);
+    box-sizing: border-box;
+    line-height: 1.5;
+
+}
+header.navbar.logo img{
+    width: auto;
+    height: auto;
+    background:none;
+    margin-right: 10px
+}
+.logo img{
+    max-width: 150px;
+    height:auto;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display:flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    transition: background-color 0.4s ease, transform 0.4s ease;
+}
+a:hover{
+    background-color:rgba(70, 135, 152, 0.3);
+    transform:scale(1.1);
+}
+.hero-section{
+    text-align:left;
+    padding: 50px;
+    background-size:cover;
+    opacity: 0.;
+    color:whitesmoke;
+}
+.hero-section p{
+    font-size:44px;
+}
+.hero-section h3{
+    font-size: 28px;
+    margin-bottom: auto;
+}
+.morgage-calculator{
+    display: inline-block;
+    background-color:rgb(0, 139,139,0.5);
+    padding: 30px, 50px;
+    color:black;
+    font-size: 20px;
+    text-decoration:none;
+    text-align: center;
+}
+.morgage-calculator .mortgage-link{
+    text-decoration: underline;
+}
+.service-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 60px;
+    border-radius: 10px;
+
+}
+.service-section .about-section{
+    flex: 1;
+    padding: 40px;
+    border: 20px;
+    background-color: rgba(236, 229, 229, 0.3);
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 10px;
+
+}
+.service-section .about-section:hover{
+       background-color: rgba(0, 139, 139, 0.5);
+       transform: scale(1.05);
+}
+.service-section .savings{
+    flex: 1;
+    padding: 40px;
+    border: 20px;
+    background-color: rgba(236, 229, 229, 0.3);
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 10px;
+
+}
+.service-section .savings:hover{
+    background-color: rgba(0, 139, 139, 0.5);
+    transform: scale(1.05);
+}
+.savings img{
+    width: 60%;
+    height:auto;
+    object-fit: cover;
+    align-items: center;
+}
+.footer{
+    background-color: darkcyan;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: darkcyan;
+    color: white;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer hr {
+    margin: 1rem auto;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+

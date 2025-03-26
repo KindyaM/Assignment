@@ -1,0 +1,111 @@
+body{
+    background: linear-gradient(to bottom, aliceblue,#ffffff);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background:darkcyan;
+    padding:20px;
+    border-bottom:1px solid#ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 78px;
+
+}
+header.navbar.logo img{
+    width: auto;
+    height: 50px;
+    background:none;
+    margin-right: 10px;
+}
+ul{
+    padding:0px;
+    margin:0px;
+    gap: 20px;
+    display: flex;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    transition: background-color 0.4s ease, transform 0.4s ease;
+}
+a:hover{
+    background-color:rgba(142, 138, 128, 0.3);
+    transform:scale(1.1);
+}
+.logo img{
+    max-width:150px;
+    align-items: left;
+}
+form.contactInfo{
+    display: flex;
+    flex-direction: column;
+    max-width:400px;
+}
+.contactInfo h2{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.contactInfo p{
+    text-align:center;
+    font-size:15px;
+}
+.contact-form{
+    margin: 10px;
+    padding:2px;
+}
+.contact-form label{
+    display:block;
+    padding:4px;
+    margin-bottom:8px;
+    font-weight:bold;
+
+}
+.contact-form input, 
+.contact-form textarea{
+    padding:12px;
+    margin-top:10px;
+    width: 100%;
+    border:20px;
+    border-radius: 10px;
+
+}
+.input[type="submit"]{
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s transform 0.3s;
+}
+.input[type="submit"]:hover{
+    background-color: antiquewhite;
+}
+.error{
+    color:rebeccapurple;
+    margin-top: 8px;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: darkcyan;
+    color: white;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer hr {
+    margin: 1rem auto;
+    border: 0;
+    border-top: 1px solid #ccc;
+}

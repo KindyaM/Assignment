@@ -1,0 +1,84 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background:darkcyan;
+    padding:20px;
+    border-bottom:1px solid#ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 78px;
+}
+header.navbar.logo img{
+    width: auto;
+    height: 50px;
+    background:none;
+    margin-right: 10px;
+}
+ul{
+    
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display:flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    transition: background-color 0.4s ease, transform 0.4s ease;
+}
+a:hover{
+    background-color:rgba(142, 138, 128, 0.3);
+    transform:scale(1.1);
+}
+.logo img{
+    max-width:150px;
+}
+.accordion {
+    background-color:aliceblue;
+    color:black;
+    cursor: pointer;
+    padding: 24px;
+    width:100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 10px;
+  }
+  
+  
+.active, .accordion:hover {
+    background-color: rgb(137, 213, 249);
+}
+.panel{
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: darkcyan;
+    color: white;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer hr {
+    margin: 1rem auto;
+    border: 0;
+    border-top: 1px solid #ccc;
+}

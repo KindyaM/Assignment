@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Page</title>
+    <link rel="stylesheet" href="faq.css">
+</head>
+<body>
+    <script type="text/javascript"></script>
+    <header>
+        <div class="logo">
+        <a href="chat.html" class="logo">
+            <img src="Logo.png" alt="company name">
+        </a> 
+        </div>
+        <nav>
+            <ul>
+                <li><a href="chat.html">Home</a></li>
+                <li><a href="morgage.html">Mortgage Calculator</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+        </header>
+    <main>
+        <h1>Frequently Asked Questions</h1>
+
+        <button class="accordion">Check for loan eligibility</button>
+        <div class="panel">
+            <p>To check for eligibility, find out more on our  <a href="morgage.html">morgage-calculator</a></p>
+        </div>
+
+        <button class="accordion">Protect yourself from fraud</button>
+        <div class="panel">
+            <p>Never share your <b>PIN</b> and <b> OTPs</b> with anyone. Remember to use strong passwords only known to you</p>
+        </div>
+
+        <button class="accordion">Struggling to navigate?</button>
+        <div class="panel">
+            <p>Do not worry! Our customer service team is here to help you if you are unable to use the app.</p>
+        </div>
+
+        <button class="accordion">Customer feedback</button>
+        <div class="panel">
+            <p>We value our customers' feedback as it is useful to provide a better experience for you! </p>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <a href="faq.html">FAQs</a>
+            <a href="contact.html">Contact us</a>
+            <a href="About us">About us</a>
+        </div>
+        <hr>
+        &copy;Mercier 2024.All Rights Reserved
+    </footer>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+ </script>
+</body>
+</html>

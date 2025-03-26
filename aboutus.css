@@ -1,0 +1,121 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background:darkcyan;
+    padding:20px;
+    border-bottom:1px solid#ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 78px;
+
+
+}
+header.navbar.logo img{
+    width: auto;
+    height: 50px;
+    background:none;
+    margin-right: 10px;
+    max-width: 150px;
+}
+
+.logo img{
+    max-width: 150px;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display:flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    transition: background-color 0.4s ease, transform 0.4s ease;
+}
+a:hover{
+    background-color:rgba(142, 138, 128, 0.3);
+    transform:scale(1.1);
+}
+.aboutt{
+    text-align: center;
+}
+ .about{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding:20px;
+ }
+ .background-box{
+    box-shadow:2px;
+    border-radius:12px;
+    gap: 20px;
+    padding: 20px ;
+    max-width:300px;
+    height:auto;
+    background-color: aliceblue;
+    text-align:center;
+    font-size: 16px;
+}
+ .background-box img{
+    width:100%;
+    border-radius: 10px;
+ }
+ .mission-box{
+    box-shadow:2px;
+    border-radius:12px;
+    gap: 20px;
+    padding: 20px;
+    max-width:300px;
+    height:auto;
+    background-color: aliceblue;
+    font-size:16px;
+    text-align:center;
+ }
+.mission-box img{
+    width:100%;
+    border-radius: 10px;
+}
+ .values-box{
+    box-shadow:2px;
+    border-radius:12px;
+    gap: 20px;
+    padding: 20px;
+    max-width:300px;
+    height:auto;
+    background-color: aliceblue;
+    font-size: 16px;
+    text-align: center;
+ }
+ .values-box img{
+    width:100%;
+    border-radius:10px;
+ }
+ footer {
+    text-align: center;
+    padding: 1rem;
+    background: darkcyan;
+    color: white;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer hr {
+    margin: 1rem auto;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
